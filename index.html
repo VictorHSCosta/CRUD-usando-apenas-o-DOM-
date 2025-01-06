@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Lista de produtos</h1>
+  </header>
+
+  <main>
+    <div style="display: flex;">
+      <button id="addProduto" onclick="addProdutos()" ;">Adicionar produto</button>
+      <button id="excluirProduto" onclick="ExcluirProdutos()">Excluir produto</button>
+    </div>
+
+    <section>
+      <ul id="listaProdutos"></ul>
+    </section>
+
+
+    <form id="novoFormulario" action="addProductToList()" style=" visibility:hidden;" ;">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      <label for="preco">Preço:</label>
+      <input type="number" id="preco" name="preco" required>
+      <label for="descricao">Descricão do produto:</label>
+      <textarea name="descricao" id="descricao" cols="30" rows="10" required></textarea>
+      <label for="botoes">Disponível para venda:</label>
+      <div id="botoes">
+        <button id="sim" type="button" onclick="changeState(true)">Sim</button>
+        <button id="nao" type="button" onclick="changeState(false)">Não</button>
+      </div>
+      <button type="button" onclick="AdicionarProdutos()">Adicionar produto</button>
+
+    </form>
+
+
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header > h1 {
+  text-align: center;
+  margin: 4rem 0;
+  font-size: 2rem;
+  background-color: #fff;
+  color: rgb(71, 71, 71);
+}
+
+#divisor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1px;
+  width: 100%;
+  background-color: #4a36fa;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  border: solid 1px rgb(238, 238, 238);
+  border-radius: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+#addProduto {
+  background-color: seagreen;
+  color: #fff;
+  border: solid 1px seagreen;
+  border-radius: 10rem;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  cursor: pointer;
+  display: flex;
+}
+
+#addProduto:hover {
+  background-color: #fff;
+  color: seagreen;
+}
+
+#excluirProduto {
+  background-color: red;
+  color: #fff;
+  border: solid 1px red;
+  border-radius: 10rem;
+  padding: 1rem 2rem;
+  margin: 2rem 1rem;
+  cursor: pointer;
+  display: flex;
+}
+
+#excluirProduto:hover {
+  background-color: #fff;
+  color: red;
+}
+
+form > label {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+form > input {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: solid 1px rgb(238, 238, 238);
+  border-radius: 0.5rem;
+}
+
+form > textarea {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: solid 1px rgb(238, 238, 238);
+  border-radius: 0.5rem;
+}
+
+form > button {
+  background-color: seagreen;
+  color: #fff;
+  border: solid 1px seagreen;
+  border-radius: 10rem;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  cursor: pointer;
+  display: flex;
+}
+
+#sim {
+  background-color: seagreen;
+  color: #fff;
+  border: solid 1px seagreen;
+  border-radius: 10rem;
+  padding: 1rem 2rem;
+  margin: 2rem 1rem;
+  cursor: pointer;
+}
+
+#sim:hover {
+  background-color: #fff;
+  color: seagreen;
+}
+
+#nao {
+  background-color: red;
+  color: #fff;
+  border: solid 1px red;
+  border-radius: 10rem;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+#nao:hover {
+  background-color: #fff;
+  color: red;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px rgb(226, 226, 226);
+  border-radius: 1rem;
+  min-width: 300px;
+  margin: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#listaProdutos > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
