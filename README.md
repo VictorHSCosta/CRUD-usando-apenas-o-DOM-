@@ -1,4 +1,4 @@
-#🚀 Projeto de Aprendizado em JavaScript DOM
+🚀 Projeto de Aprendizado em JavaScript DOM
 
 Estou animado para compartilhar meu mais recente projeto, onde aprofundei meus conhecimentos em manipulação do DOM com JavaScript. Neste projeto, desenvolvi uma aplicação simples para gerenciar uma lista de produtos, permitindo adicionar, exibir e armazenar produtos no Local Storage do navegador.
 
